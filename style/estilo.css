@@ -208,12 +208,12 @@ a {
 
 .contato a {
     color: white;
+    font-size: 2vw;
+        
 }
 
 .contato table {
     width: 100%;
-    max-width: 64px;
-    height: auto;
     text-align: center;
     border: solid 1px #ccc;
     border-collapse: collapse;
@@ -226,8 +226,11 @@ a {
 }
 
 .contato table img {
-    width: 64px;
+    width: 100%;
+    max-width: 64px;
+    height: auto;
 }
+
 
 .contato label {
     font-size: 1.3vw;
