@@ -31,13 +31,16 @@ a {
 
 .conteiner {
     width: 80vw;
-    margin-left: auto; 
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom:0 ;
+    margin: 0 auto;
     min-height: 100vh;
     position: relative;
 }
+
+@media (max-width: 600px) {
+    .conteiner {
+        width: 100%;
+    }
+}    
     
 .areaesquerda {
     background-color: white;
@@ -46,6 +49,13 @@ a {
     border-top: 0px;
     height: 100vh;
     padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .areaesquerda {
+        width: 100%;
+        position: relative;
+    }
 }
 
 .areaesquerda .logo img {
@@ -82,6 +92,14 @@ a {
     margin: 15px;
  
 }  
+
+@media (max-width: 600px) {
+    .areadireita {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+}
    
 .areadireita h1 b {
     font-size: 3rem;
